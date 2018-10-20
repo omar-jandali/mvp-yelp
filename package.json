@@ -1,0 +1,51 @@
+{
+  "name": "mvp-yelp",
+  "version": "1.0.0",
+  "description": "MVP for hackreactor",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -w",
+    "start": "nodemon ./server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "4.16.4",
+    "express-partial": "0.1.0",
+    "express-session": "1.15.6",
+    "express-react": "1.0.2",
+    "body-parser": "1.18.3",
+    "morgan": "1.9.1",
+    "helmet": "3.14.0",
+    "react": "16.5.2",
+    "react-dom": "16.5.2",
+    "path": "0.12.7",
+    "request": "2.88.0",
+    "mysql": "2.16.0",
+    "mysql2": "1.6.1",
+    "sequelize": "4.40.0",
+    "nodemon": "1.18.4",
+    "mongo": "0.1.0",
+    "mongoose": "5.3.4",
+    "webpack": "4.21.0",
+    "axios": "0.18.0",
+    "webpack-cli": "3.1.2",
+    "babel": "6.23.0",
+    "babel-loader": "^7.1.5",
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-es2015": "6.24.1",
+    "babel-watch": "2.0.7",
+    "yelp-fusion": "2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omar-jandali/hrla25-mvp.git"
+  },
+  "author": "Omar Jandali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omar-jandali/hrla25-mvp/issues"
+  },
+  "homepage": "https://github.com/omar-jandali/hrla25-mvp#readme"
+}
