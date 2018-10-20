@@ -1,5 +1,5 @@
 const router = require("express").Router()
-const controller = require("./controller");
+const controller = require("./controller.js");
 
 router
   .route('/places')
@@ -8,4 +8,4 @@ router
   .delete(controller.post)
   .put(controller.put)
 
-module.exports.router = router;
+module.exports = router;
